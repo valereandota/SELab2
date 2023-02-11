@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278287285480",
+    "project_id": "selab2-fd87c",
+    "storage_bucket": "selab2-fd87c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278287285480:android:cbda0f1821276ac8cb5d5d",
+        "android_client_info": {
+          "package_name": "com.example.selab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278287285480-tkd2bbeppi4cp0s5ac6ejhb96bjdqpkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoIjgHNT4MzKFabyYEUGiX6EcY08qoUeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278287285480-tkd2bbeppi4cp0s5ac6ejhb96bjdqpkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
