@@ -34,23 +34,16 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
-        writeDB("kebab", "Tester")
-        readDB("Tester")
 
-
-        binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
     }
 
  fun writeDB(value:String, db: String){
-     val database = Firebase.database
+     val database = Firebase.database("https://selab2-fd87c-default-rtdb.europe-west1.firebasedatabase.app")
      val myRef = database.getReference(db)
      myRef.setValue(value)
  }
     fun readDB(db : String){
-        val database = Firebase.database
+        val database = Firebase.database("https://selab2-fd87c-default-rtdb.europe-west1.firebasedatabase.app")
         val myRef = database.getReference(db)
         myRef.addValueEventListener(object: ValueEventListener {
 
